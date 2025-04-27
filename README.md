@@ -10,3 +10,7 @@ The dataset contains information about bank details, various client details whic
 The tables are namely Banking Relationship, Banking_Clients, Gender, Investment_Advisors and Banking. 
 
 # Data Cleaning
+Creating a new column "Engagement Days" which tracks the number of days the client have stayed with the bank from the join date to present day.
+
+Creating a new column "Engagement Timeframe" which returns the timeline of the client's stay with the bank.
+
