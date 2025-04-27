@@ -14,3 +14,7 @@ Creating a new column "Engagement Days" which tracks the number of days the clie
 
 Creating a new column "Engagement Timeframe" which returns the timeline of the client's stay with the bank.
 
+Creating bins for Estimated Income as 'Low' for <100000, 'Mid' for <300000 and 'High' for the remaining income levels, and assigning 'Income Band' as the new binned column to represent the categories.
+
+Creating a new column named 'Processing Fees' to categorize the different levels of processing fees as 'Low' - 0.01, 'Mid' - 0.03, 'High' - 0.05.
+
