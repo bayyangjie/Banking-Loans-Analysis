@@ -19,8 +19,9 @@ Creating bins for Estimated Income as 'Low' for <100000, 'Mid' for <300000 and '
 
 Creating a new column named 'Processing Fees' to categorize the different levels of processing fees as 'Low' - 0.01, 'Mid' - 0.03, 'High' - 0.05.
 
-## Calculated Functions
-SUM: <br>
+## DAX Measures
+Functions used: SUM(), SUMX(), DATEDIFF(), DISTINCTCOUNT() <br>
+
 Engagement Length - To count the number of days a customer has been engaged with the bank.
 ```dax
 Engagement Length = SUM('banking_case customer'[Engagement Days])
@@ -47,13 +48,39 @@ Total Fees = SUMX('Clients - Banking' , [Total Loan] * 'Clients - Banking'[Proce
 ```
 <!--- SUMX performs a row-by-row calculation to compute the fee for each client then adds up all the fees into a single totalled value --->
 
-## Calculated Columns
-Engagement Days - The period that a customer has been with the bank
+Total Credit Card Balance - The amount of short term financing that the bank has loaned out
+
+
+## DAX Calculated Columns
+Functions used: DATEDIFF(), YEAR(), SWITCH() <br>
+
+Engagement Days - The period that a customer has been with the bank.
 ```dax
 Engagement Days = DATEDIFF('banking_case customer'[Joined Bank], TODAY(), DAY)
 ```
 
 Investment Advisor - Map the names of the investment advisors to the respective advisor ID in the "investment-advisiors.csv" dataset.
+
+Year of Joining - The year that the client joined the bank, extracted from the 'Joined Bank' column which contains date values.
+```dax
+Year of Joining = YEAR('banking_case customer'[Joined Bank])
+```
+
+Engagement Timeframe - Binned values from 'Engagement Days' into four categories (< 5 Years, < 10 Years, < 20 Years, > 20 Years).
+```dax
+Engagement Timeframe = 
+SWITCH(TRUE(),
+'banking_case customer'[Engagement Days] < 365, "< 1 Year",
+'banking_case customer'[Engagement Days] < 1825, "< 5 Years",
+'banking_case customer'[Engagement Days] < 3650, "< 10 Years",
+'banking_case customer'[Engagement Days] < 7300, "< 20 Years",
+"> 20 Years")
+```
+
+# Visualization and Result
+A total of 5 pages are created in Power BI Desktop - Home, Loan Analysis, Deposit Analysis, Summary, Drill Through Report.
+
+## Loan Analysis
 
 
 
