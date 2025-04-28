@@ -49,5 +49,12 @@ Total Fees = SUMX('Clients - Banking' , [Total Loan] * 'Clients - Banking'[Proce
 
 ## Calculated Columns
 Engagement Days - The period that a customer has been with the bank
+```dax
+Engagement Days = DATEDIFF('banking_case customer'[Joined Bank], TODAY(), DAY)
+```
+
+Investment Advisor - Map the names of the investment advisors to the respective advisor ID in the "investment-advisiors.csv" dataset.
+
+
 
 
