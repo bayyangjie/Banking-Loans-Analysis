@@ -80,7 +80,11 @@ SWITCH(TRUE(),
 # Visualization and Result
 A total of 5 pages are created in Power BI Desktop - Home, Loan Analysis, Deposit Analysis, Summary, Drill Through Report.
 
-Navigation buttons are also added at the top of each page. This allows the user to easily explore the visuals to identify relationships within the data.
+Navigation buttons are also added at the top of each page. This allows the user to easily navigate between visuals. 
+
+Filters are also included to allow filtering of the data by the types of banking relationships, gender, joining year and investment advisors.
+
+A drill-through report is also generated This is to get a more detailed understanding of the data through drilling down by Banking Relationship, Engagement Timeframe, Income Band and Nationality.
 
 ## Loan Analysis
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
