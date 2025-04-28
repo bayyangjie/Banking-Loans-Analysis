@@ -81,7 +81,8 @@ SWITCH(TRUE(),
 A total of 5 pages are created in Power BI Desktop - Home, Loan Analysis, Deposit Analysis, Summary, Drill Through Report.
 
 ## Loan Analysis
+<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
 
-
-
+## Deposit Analysis
+<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/deposit%20analysis.png?raw=true" width="100%">
 
