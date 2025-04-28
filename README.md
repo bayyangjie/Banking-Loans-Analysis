@@ -80,7 +80,7 @@ SWITCH(TRUE(),
 # Visualization and Result
 A total of 5 pages are created in Power BI Desktop - Home, Loan Analysis, Deposit Analysis, Summary, Drill Through Report.
 
-Navigation buttons are also added at the top of each page. This allows the user to easily explore the visuals to gain an in-depth understanding of the data.
+Navigation buttons are also added at the top of each page. This allows the user to easily explore the visuals to identify relationships within the data.
 
 ## Loan Analysis
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
