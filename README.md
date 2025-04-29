@@ -100,4 +100,4 @@ The visuals also provide a breakdown of total deposits by a client by Nationalit
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Summary.png?raw=true" width="100%">
 
 ## Drill Through Report
-<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/DrillThrough.gif" width="100%">
+<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Drill%20Through%20Latest.gif?raw=true" width="100%">
