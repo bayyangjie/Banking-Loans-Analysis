@@ -85,7 +85,8 @@ Navigation buttons are also added at the top of each page. This allows the user 
 Filters are also included to allow filtering of the data by the types of banking relationships, gender, joining year and investment advisors.
 
 ## Loan Analysis
-The loan analysis report provides the total loan that is to be repaid by the client to the bank. It is broken down into different components - Total Bank Loans, Total Business Lending, Total Credit Card Balance. 
+The loan analysis report provides the total loan that is to be repaid by the client to the bank. It is broken down into different components - Total Bank Loans, Total Business Lending, Total Credit Card Balance. <br>
+
 Bank loan is further analyzed by Income Band, Nationality, Banking Relation. Total Loan is also further broken down by the Engagement Length which shows the different loan components broken down by Engagement Length. <br>
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
@@ -101,8 +102,8 @@ The visuals also provide a breakdown of total deposits by a client by Nationalit
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Summary.png?raw=true" width="100%">
 
 ## Drill Through Report
-The drill through report enables a user to right click on the drill-through fields Banking Relation, Engagement Timeframe, Income Band, Nationality located on the visuals in the main page, which would bring the user to the drill-through page showing more details about the fields. <br>
+The drill through report enables a user to right click on the drill-through fields (i.e Banking Relation, Engagement Timeframe, Income Band, Nationality) on the different visuals of the main pages, which leads the user to the drill-through page to obtain more details about the fields. <br>
 
-For example, getting more information about each Income Band such as Total Loans, Total Deposits, Sum of Properties Owned, Amount in Savings Account etc; Total Deposits made by clients for each Banking Relationship type; Overall Engagement Length for each Nationality. <br>
+For example, getting more information about each Income Band type like Total Loans, Total Deposits, Sum of Properties Owned, Amount in Savings Account etc; Total Deposits by clients within each Banking Relationship; Overall Engagement Length of each Nationality. <br>
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Drill%20Through%20Latest.gif?raw=true" width="100%">
