@@ -78,14 +78,18 @@ SWITCH(TRUE(),
 ```
 
 # Visualization and Result
-A total of 5 pages are created in Power BI Desktop - Home, Loan Analysis, Deposit Analysis, Summary, Drill Through Report. <br>
 
-Navigation buttons are also added at the top of each page. This allows the user to easily navigate between visuals. <br>
+## Home
+A total of 5 pages are created - Home, Loan Analysis, Deposit Analysis, Summary, Drill Through Report. <br>
 
-Filters are also included to allow filtering of the data by the types of banking relationships, gender, joining year and investment advisors.
+Navigation buttons are added at the top of each page to allow easy navigation between the pages. <br>
+
+Filters are also included to break down the data by Banking Relationship Type, Gender, Joining Year and Clent's Investment Advisor. <br>
+
+<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/homepage.png?raw=true" width="100%">
 
 ## Loan Analysis
-The loan analysis report provides the total loan that is to be repaid by the client to the bank. It is broken down into different components - Total Bank Loans, Total Business Lending, Total Credit Card Balance. <br>
+The loan analysis provides the total loan that the client needs to repay. It is broken down into different components -Total Bank Loans, Total Business Lending, Total Credit Card Balance. <br>
 
 Bank loan is further analyzed by Income Band, Nationality, Banking Relation. Total Loan is also further broken down by the Engagement Length which shows the different loan components broken down by Engagement Length. <br>
 
