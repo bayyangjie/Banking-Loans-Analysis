@@ -91,7 +91,8 @@ Bank loan is further analyzed by Income Band, Nationality, Banking Relation. Tot
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
 
 ## Deposit Analysis
-The deposit analysis report shows the total deposit made by a client to the bank. The total deposit includes the standard bank deposit, savings account deposit, foreign currency deposits and checking account deposit. 
+The deposit analysis report shows the total deposit made by a client to the bank. The total deposit includes the standard bank deposit, savings account deposit, foreign currency deposits and checking account deposit. <br>
+
 The visuals also provide a breakdown of total deposits by a client by Nationality and Engagement Timeframe. The total bank deposit made by a client is also further broken down by Income Band. <br>
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/deposit%20analysis.png?raw=true" width="100%">
