@@ -89,16 +89,18 @@ Filters are also included to break down the data by Banking Relationship Type, G
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/homepage.png?raw=true" width="100%">
 
 ## Loan Analysis
-The loan analysis provides the total loan that the client needs to repay. It is broken down into different components -Total Bank Loans, Total Business Lending, Total Credit Card Balance. <br>
+The loan analysis shows that Europeans take the highest bank loan of $777.62M and Private Banking makes up the most amount of loans given to clients at $1.99B. 
 
-Bank loan is further analyzed by Income Band, Nationality, Banking Relation. Total Loan is also further broken down by the Engagement Length which shows the different loan components broken down by Engagement Length. <br>
+Business Lending loans contribute to the most amount out of the different loan types.  
+
+Majority of Bank Loan goes to clients that are from the 'Medium' Income Band category.
+
+The most amount of loan given out are to clients who have been engaged with the bank for at least 20 years followed by those who have stayed with the bank over 20 years. This could suggest that the bank treasures loyal clients and places more trust in them, thus having the confidence to provide these groups of clients with more loans.
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
 
 ## Deposit Analysis
-The deposit analysis report shows the total deposit made by a client to the bank. The total deposit includes the standard bank deposit, savings account deposit, foreign currency deposits and checking account deposit. <br>
-
-The visuals also provide a breakdown of total deposits by a client by Nationality and Engagement Timeframe. The total bank deposit made by a client is also further broken down by Income Band. <br>
+The deposit analysis shows that clients from the 'Medium' income band category form the highest amount of deposits.
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/deposit%20analysis.png?raw=true" width="100%">
 
@@ -111,3 +113,6 @@ The drill through report enables a user to right click on the drill-through fiel
 For example, getting more information about each Income Band type like Total Loans, Total Deposits, Sum of Properties Owned, Amount in Savings Account etc; Total Deposits by clients within each Banking Relationship; Overall Engagement Length of each Nationality. <br>
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Drill%20Through%20Latest.gif?raw=true" width="100%">
+
+# Conclusion
+
