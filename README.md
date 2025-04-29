@@ -100,7 +100,8 @@ The visuals also provide a breakdown of total deposits by a client by Nationalit
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Summary.png?raw=true" width="100%">
 
 ## Drill Through Report
-The drill through report enables a user to right click on the drill-through fields Banking Relation, Engagement Timeframe, Income Band, Nationality located on the visuals in the main page, which would bring the user to the drill-through page showing more details about the fields.
+The drill through report enables a user to right click on the drill-through fields Banking Relation, Engagement Timeframe, Income Band, Nationality located on the visuals in the main page, which would bring the user to the drill-through page showing more details about the fields. <br>
+
 For example, getting more information about each Income Band such as Total Loans, Total Deposits, Sum of Properties Owned, Amount in Savings Account etc; Total Deposits made by clients for each Banking Relationship type; Overall Engagement Length for each Nationality. <br>
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Drill%20Through%20Latest.gif?raw=true" width="100%">
