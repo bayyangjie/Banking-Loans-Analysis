@@ -2,7 +2,7 @@
 This project aims to develop a basic understanding of risk analytics in banking and understand how data is used to minimize risk to the bank while lending out money to customers. 
 
 # Objective 
-The dashboard aims to help a company determine the likelihood of an applicant being able to repay the loan before deciding on the loan approval.
+This dashboard helps a bank perform an overall assessment of a client's financial profile to determine the likelihood of an applicant's ability to repay a loan before approval.
 
 # Project Structure
 ```
@@ -39,7 +39,10 @@ Power BI Desktop
 MySQL Workbench
 Jupyter Notebook
 
-# DAX Measures
+# Data Transformation
+DAX was used to create measures and calculated columns as part of the data transformation step. The data transformation included the use of aggregation functions for providing dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
+
+## DAX Measures
 Functions used: SUM(), SUMX(), DATEDIFF(), DISTINCTCOUNT() <br>
 
 Engagement Length - To count the number of days a customer has been engaged with the bank.
@@ -71,7 +74,7 @@ Total Fees = SUMX('Clients - Banking' , [Total Loan] * 'Clients - Banking'[Proce
 Total Credit Card Balance - The amount of short term financing that the bank has loaned out
 
 
-# DAX Calculated Columns
+## DAX Calculated Columns
 Functions used: DATEDIFF(), YEAR(), SWITCH() <br>
 
 Engagement Days - The period that a customer has been with the bank.
