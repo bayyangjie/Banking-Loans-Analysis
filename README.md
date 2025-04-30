@@ -66,7 +66,7 @@ The numerical analysis explores the spread of values in the numerical variables 
 
 ![Numerical Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/numerical_analysis_2.png)
 
-## Correlation Matrix
+## Correlation Analysis
 
 
 # Data Transformation
