@@ -100,7 +100,7 @@ SWITCH(TRUE(),
 "> 20 Years")
 ```
 
-# Visualization and Result
+# Visualization and Insights
 
 ## Home
 A total of 5 pages are created - Home, Loan Analysis, Deposit Analysis, Summary, Drill Through Report. <br>
