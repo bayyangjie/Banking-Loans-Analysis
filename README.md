@@ -4,22 +4,25 @@ This project aims to develop a basic understanding of risk analytics in banking 
 # Objective 
 The dashboard aims to help a company determine the likelihood of an applicant being able to repay the loan before deciding on the loan approval.
 
+# Project Structure
+
+
 # About the dataset 
-The dataset contains information about bank details, various client details which consist of multiple tables interlinked through keys like primary and foreign keys.
+The dataset consists of 4 tables: <br>
 
-The tables are namely Banking Relationship, Banking_Clients, Gender, Investment_Advisors and Banking. 
+Banking: Clients personal details and financial profile information
+Banking Relationship: Types of banking relationship the client has with the bank
+Gender
+Investment Advisor
 
-# Data Preparation
-## Data Cleaning
-Creating a new column "Engagement Days" which tracks the number of days the client have stayed with the bank from the join date to present day.
+The 'Banking' dataset is the primary table that contains the most details. The information in the other tables served as reference when performing the data processing with PowerBI DAX.  
 
-Creating a new column "Engagement Timeframe" which returns the timeline of the client's stay with the bank.
+# Tools Utilized
+Power BI Desktop
+MySQL Workbench
+Jupyter Notebook
 
-Creating bins for Estimated Income as 'Low' for <100000, 'Mid' for <300000 and 'High' for the remaining income levels, and assigning 'Income Band' as the new binned column to represent the categories.
-
-Creating a new column named 'Processing Fees' to categorize the different levels of processing fees as 'Low' - 0.01, 'Mid' - 0.03, 'High' - 0.05.
-
-## DAX Measures
+# DAX Measures
 Functions used: SUM(), SUMX(), DATEDIFF(), DISTINCTCOUNT() <br>
 
 Engagement Length - To count the number of days a customer has been engaged with the bank.
@@ -51,7 +54,7 @@ Total Fees = SUMX('Clients - Banking' , [Total Loan] * 'Clients - Banking'[Proce
 Total Credit Card Balance - The amount of short term financing that the bank has loaned out
 
 
-## DAX Calculated Columns
+# DAX Calculated Columns
 Functions used: DATEDIFF(), YEAR(), SWITCH() <br>
 
 Engagement Days - The period that a customer has been with the bank.
@@ -100,7 +103,11 @@ The most amount of loan given out are to clients who have been engaged with the 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
 
 ## Deposit Analysis
-The deposit analysis shows that clients from the 'Medium' income band category form the highest amount of deposits.
+The deposit analysis shows that clients from the 'Medium' income band category deposit the most amount of money in the bank.
+
+Europeans deposit the most amount of money across the different deposit types (Bank, Savings, Checking, Foreign Currency) as compared to the other nationalities.
+
+Clients who have been with the bank for at least 20 years make the most amount of deposits followed by clients with over 20 years. This could be due to the growth of trust between the client and the bank over a long time and clients getting rewarded (such as better interest rates) by the bank for their loyalty.
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/deposit%20analysis.png?raw=true" width="100%">
 
@@ -114,5 +121,4 @@ For example, getting more information about each Income Band type like Total Loa
 
 <img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Drill%20Through%20Latest.gif?raw=true" width="100%">
 
-# Conclusion
 
