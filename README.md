@@ -49,6 +49,8 @@ Jupyter Notebook
 
 # EDA
 
+## Univariate Analysis
+The univariate analysis was done to retrieve the number of times each unique value appears in each column. Only the categorical columns are included here.
 
 # Data Transformation
 DAX was used to create measures and calculated columns as part of the data transformation step. This included the use of aggregation functions for creating dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
