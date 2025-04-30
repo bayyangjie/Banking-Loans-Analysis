@@ -109,7 +109,7 @@ Navigation buttons are added at the top of each page to allow easy navigation be
 
 Filters are also included to break down the data by Banking Relationship Type, Gender, Joining Year and Clent's Investment Advisor. <br>
 
-<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/homepage.png?raw=true" width="100%">
+<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/home.png?raw=true" width="100%">
 
 ## Loan Analysis
 The loan analysis shows that Europeans take the highest bank loan of $777.62M and Private Banking makes up the most amount of loans given to clients at $1.99B. 
