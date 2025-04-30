@@ -24,12 +24,15 @@ Banking Loan Analysis Dashboard/
 # About the datasets 
 The dataset consists of 4 tables: <br>
 
-Banking - Clients personal details and financial profile information
-Banking Relationship - Types of banking relationship the client has with the bank
-Gender
-Investment Advisor
+Banking - Clients personal details and financial profile information <br>
 
-The 'Banking' dataset is the primary table that contains the most details. The information in the other tables served as reference when performing the data processing with PowerBI DAX.  
+Banking Relationship - Types of banking relationship the client has with the bank <br>
+
+Gender <br>
+
+Investment Advisor <br>
+
+The 'Banking' dataset is the primary table that contains the most details. The information in the other three tables serve as a reference for mapping the ID values in the visualizations.  
 
 # Tools Utilized
 Power BI Desktop
