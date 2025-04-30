@@ -22,11 +22,10 @@ Banking Loan Analysis Dashboard/
 ```
 
 # Skills and Concepts demonstrated
+* Database creation
 * EDA
 * Data Transformation
-      * DAX functions
-        * Calculated columns
-        * Measures
+    * DAX functions
 * Data Visualization
 
 # About the dataset
