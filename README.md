@@ -107,9 +107,9 @@ A total of 5 pages are created - Home, Loan Analysis, Deposit Analysis, Summary,
 
 Navigation buttons are added at the top of each page to allow easy navigation between the pages. <br>
 
-Filters are also included to break down the data by Banking Relationship Type, Gender, Joining Year and Clent's Investment Advisor. <br>
+Filters are also included to break down the data by Banking Relationship Type, Gender, Joining Year and Client's Investment Advisor. <br>
 
-<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/home.png?raw=true" width="100%">
+![Homepage](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/home.png)
 
 ## Loan Analysis
 The loan analysis shows that Europeans take the highest bank loan of $777.62M and Private Banking makes up the most amount of loans given to clients at $1.99B. 
