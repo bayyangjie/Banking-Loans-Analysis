@@ -21,7 +21,7 @@ Banking Loan Analysis Dashboard/
         └── loan analysis.png
 ```
 
-# About the datasets 
+# About the dataset
 The dataset consists of 4 tables: <br>
 
 Banking - Clients personal details and financial profile information <br>
