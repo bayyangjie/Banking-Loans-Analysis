@@ -66,6 +66,9 @@ The numerical analysis explores the spread of values in the numerical variables 
 
 ![Numerical Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/numerical_analysis_2.png)
 
+## Correlation Matrix
+
+
 # Data Transformation
 DAX was used to create measures and calculated columns as part of the data transformation step. This included the use of aggregation functions for creating dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
 
