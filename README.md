@@ -141,8 +141,16 @@ For example, getting more information about each Income Band type like Total Loa
 
 ![Drill Through Report](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/drill_through.gif)
 
-# Conclusion
-* Clients from the 'Medium' income band category receive the most amount of loan as well as contributing to the most amount of total bank deposits. <br>
-* European clients receive the highest amount of total loans and across all loan types such as Bank Loan, Business Lending, Credit Card Balance. Additionally, they also contribute the most across the different deposit types such as Bank Deposits, Savings and Checking accounts and Foreign Currency Account.
-* Private Bank loans form the bulk of overall bank loans as compared to Retail, Commercial and Institutional.
+# Conclusion and Recommendations
+* Loans:
+    * Clients from the 'Medium' income band category receive the most amount of loan as well as contributing to the most amount of total bank deposits. <br>
+    * *Recommendation*:  Offer smaller, manageable loans targeted to clients in the Low-Income band category since they still make up a fair proportion of the total loan amount. Premium loan packages could be designed and provided to clients in the High-income band category to encourage the loan rates from this group of clients.
+
+* Deposits:
+    * Clients in the 'Medium' income band contributed to the most amount of total deposits as well as across the different deposit types such as Bank Deposits, Savings Account, Checking Account, Foreign Currency Account
+    * *Recommendation*: Medium-Income clients represent the highest deposit contributors, suggesting strong engagement from this segment. Strategic recommendations include deepening relationships with Medium-income clients through tailored savings and investment products, investigating barriers to deposit growth among High-income clients, and designing loyalty initiatives to sustain and grow deposits from Low and Medium income bands.
+
+* Banking Relations:
+    * The bulk of total loans came from private banking loans as compared to Retail, Commercial and Institutional.
+    * *Recommendation*: New loan product packages could be offered such as personalized mortgage loans. Attractive loan rates could also be introduced for retail loans, focus on SME businesses for promoting commercial loans and building partnerships with corporations that require large credit lines/institutional loans.
 
