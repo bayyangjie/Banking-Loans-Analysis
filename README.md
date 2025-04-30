@@ -59,7 +59,11 @@ The univariate analysis explores the number of times each unique value appears i
 ![EDA Income Band](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/eda_income_band.png)
 
 ## Numerical Analysis
+The numerical analysis explores the spread of values in the numerical variables and they exhibit right skewness suggesting that most values are at the lower end. 
 
+![Numerical Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/numerical_analysis.png)
+
+![Numerical Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/numerical_analysis_2.png)
 
 # Data Transformation
 DAX was used to create measures and calculated columns as part of the data transformation step. This included the use of aggregation functions for creating dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
