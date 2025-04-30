@@ -5,6 +5,7 @@ This project aims to develop a basic understanding of risk analytics in banking 
 The dashboard aims to help a company determine the likelihood of an applicant being able to repay the loan before deciding on the loan approval.
 
 # Project Structure
+```
 Banking Loan Analysis Dashboard/
     ├── README.md
     ├── Dataset/
@@ -18,6 +19,7 @@ Banking Loan Analysis Dashboard/
         ├── deposit analysis.png
         ├── homepage.png
         └── loan analysis.png
+```
 
 # About the datasets 
 The dataset consists of 4 tables: <br>
