@@ -5,13 +5,25 @@ This project aims to develop a basic understanding of risk analytics in banking 
 The dashboard aims to help a company determine the likelihood of an applicant being able to repay the loan before deciding on the loan approval.
 
 # Project Structure
+Banking Loan Analysis Dashboard/
+    ├── README.md
+    ├── Dataset/
+    │   ├── Banking.csv
+    │   ├── banking-relationships.csv
+    │   ├── gender.csv
+    │   └── investment-advisors.csv
+    └── Images/
+        ├── Drill Through Latest.png
+        ├── Summary.png
+        ├── deposit analysis.png
+        ├── homepage.png
+        └── loan analysis.png
 
-
-# About the dataset 
+# About the datasets 
 The dataset consists of 4 tables: <br>
 
-Banking: Clients personal details and financial profile information
-Banking Relationship: Types of banking relationship the client has with the bank
+Banking - Clients personal details and financial profile information
+Banking Relationship - Types of banking relationship the client has with the bank
 Gender
 Investment Advisor
 
