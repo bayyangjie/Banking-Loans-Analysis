@@ -24,13 +24,13 @@ Banking Loan Analysis Dashboard/
 # About the dataset
 The dataset consists of 4 tables: <br>
 
-Banking - Clients personal details and financial profile information <br>
+* Banking - Clients personal details and financial profile information <br>
 
-Banking Relationship - Types of banking relationship the client has with the bank <br>
+* Banking Relationship - Types of banking relationship the client has with the bank <br>
 
-Gender <br>
+* Gender <br>
 
-Investment Advisor <br>
+* Investment Advisor <br>
 
 The 'Banking' dataset is the primary table that contains the most details. The information in the other three tables serve as a reference for mapping the ID numbers to the actual values when creating the visualizations. 
 
