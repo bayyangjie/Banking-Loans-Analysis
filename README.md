@@ -120,7 +120,7 @@ Majority of Bank Loan goes to clients that are from the 'Medium' Income Band cat
 
 The most amount of loan given out are to clients who have been engaged with the bank for at least 20 years followed by those who have stayed with the bank over 20 years. This could suggest that the bank treasures loyal clients and places more trust in them, thus having the confidence to provide these groups of clients with more loans.
 
-<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan%20analysis.png?raw=true" width="100%">
+![Loan Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/loan_analysis.png)
 
 ## Deposit Analysis
 The deposit analysis shows that clients from the 'Medium' income band category deposit the most amount of money in the bank.
@@ -129,16 +129,16 @@ Europeans deposit the most amount of money across the different deposit types (B
 
 Clients who have been with the bank for at least 20 years make the most amount of deposits followed by clients with over 20 years. This could be due to the growth of trust between the client and the bank over a long time and clients getting rewarded (such as better interest rates) by the bank for their loyalty.
 
-<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/deposit%20analysis.png?raw=true" width="100%">
+![Deposit Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/deposit_analysis.png)
 
 ## Summary
-<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Summary.png?raw=true" width="100%">
+![Summary](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Summary.png)
 
 ## Drill Through Report
 The drill through report enables a user to right click on the drill-through fields (i.e Banking Relation, Engagement Timeframe, Income Band, Nationality) on the different visuals of the main pages, which leads the user to the drill-through page to obtain more details about the fields. <br>
 
 For example, getting more information about each Income Band type like Total Loans, Total Deposits, Sum of Properties Owned, Amount in Savings Account etc; Total Deposits by clients within each Banking Relationship; Overall Engagement Length of each Nationality. <br>
 
-<img src="https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/Drill%20Through%20Latest.gif?raw=true" width="100%">
+![Drill Through Report](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/drill_through.gif)
 
 
