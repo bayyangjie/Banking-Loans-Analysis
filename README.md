@@ -43,9 +43,11 @@ The dataset consists of 4 tables: <br>
 The 'Banking' dataset is the primary table that contains the most details. The information in the other three tables serve as a reference for mapping the ID numbers to the actual values when creating the visualizations. 
 
 # Tools Utilized
-Power BI Desktop
-MySQL Workbench
-Jupyter Notebook
+MySQL Workbench - Creating database and importing source data <br> 
+
+Jupyter Notebook - Forming SQL-Python connection and performing EDA <br>
+
+Power BI Desktop - Data transformation with DAX and generating visualizations
 
 # EDA
 
