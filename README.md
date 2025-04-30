@@ -40,7 +40,7 @@ MySQL Workbench
 Jupyter Notebook
 
 # Data Transformation
-DAX was used to create measures and calculated columns as part of the data transformation step. This included the use of aggregation functions for providing dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
+DAX was used to create measures and calculated columns as part of the data transformation step. This included the use of aggregation functions for creating dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
 
 ## DAX Measures
 Functions used: SUM(), SUMX(), DATEDIFF(), DISTINCTCOUNT() <br>
