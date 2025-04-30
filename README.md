@@ -141,4 +141,8 @@ For example, getting more information about each Income Band type like Total Loa
 
 ![Drill Through Report](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/drill_through.gif)
 
+# Conclusion
+* Clients from the 'Medium' income band category receive the most amount of loan as well as contributing to the most amount of total bank deposits. <br>
+* European clients receive the highest amount of total loans and across all loan types such as Bank Loan, Business Lending, Credit Card Balance. Additionally, they also contribute the most amount of total deposits in all deposit types such as Bank Deposits, Savings and Checking accounts and Foreign Currency Account.
+* Private Bank loans form the bulk of overall bank loans as compared to Retail, Commercial and Institutional.
 
