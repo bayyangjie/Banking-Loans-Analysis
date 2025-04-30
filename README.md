@@ -1,8 +1,8 @@
 # Problem Statement
-This project aims to develop a basic understanding of risk analytics in banking and understand how data is used to minimize risk to the bank while lending out money to customers. 
+To develop a basic understanding of risk analytics in banking and understand how data is used to minimize risk to the bank while lending out money to customers. 
 
 # Objective 
-This dashboard helps a bank perform an overall assessment of a client's financial profile to determine the likelihood of an applicant's ability to repay a loan before approval.
+Create a dashboard that provides an overall assessment of a client's financial profile to determine the likelihood of an applicant's ability to repay a loan before approval.
 
 # Project Structure
 ```
@@ -21,6 +21,14 @@ Banking Loan Analysis Dashboard/
         └── loan analysis.png
 ```
 
+# Skills and Concepts demonstrated
+* EDA
+* Data Transformation
+      * DAX functions
+        * Calculated columns
+        * Measures
+* Data Visualization
+
 # About the dataset
 The dataset consists of 4 tables: <br>
 
@@ -38,6 +46,9 @@ The 'Banking' dataset is the primary table that contains the most details. The i
 Power BI Desktop
 MySQL Workbench
 Jupyter Notebook
+
+# EDA
+
 
 # Data Transformation
 DAX was used to create measures and calculated columns as part of the data transformation step. This included the use of aggregation functions for creating dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
