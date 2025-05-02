@@ -67,7 +67,8 @@ The numerical analysis explores the spread of values in the numerical variables 
 ![Numerical Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/numerical_analysis_2.png)
 
 ## Correlation Analysis
-
+The correlation shows that the highest correlations occur between Bank Deposits with Savings Accounts and Checking Accounts. This could suggest that individuals who actively use checking and savings accounts to manage funds are likely to make regular deposits, indicating that they are financially stable or focused on savings and future planning.
+![Correlation Analysis](https://github.com/bayyangjie/Banking-Loans-Analysis/blob/main/Images/correlation.png)
 
 # Data Transformation
 DAX was used to create measures and calculated columns as part of the data transformation step. This included the use of aggregation functions for creating dynamic KPIs (i.e total loans/deposits) and row context functions for creating static data columns (i.e employment timeframe/length, income bands).
