@@ -24,6 +24,10 @@ Banking Loan Analysis Dashboard/
 # Skills and Concepts demonstrated
 * Database creation
 * EDA
+    * Univariate analysis
+    * Bivariate analysis
+    * Numerical analysis
+    * Correlation analysis
 * Data Transformation
     * DAX functions
 * Data Visualization
