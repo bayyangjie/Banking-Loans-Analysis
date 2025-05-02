@@ -50,7 +50,7 @@ MySQL Workbench - Creating database and importing source data <br>
 
 Jupyter Notebook - Forming SQL-Python connection and performing EDA <br>
 
-Power BI Desktop - Data transformation with DAX and generating visualizations
+Power BI - Data transformation with DAX and generating visualizations
 
 # EDA
 
